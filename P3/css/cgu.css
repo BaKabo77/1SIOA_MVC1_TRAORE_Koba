@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+
+h1,h2,h3,h4 {
+    font-family: Futura;	
+    background-color : rgba(0,0,0,0.1);
+}
+
+td.cell {
+    text-align : center;
+    width : 100px;
+}
+
+td.label {
+    background-color : rgba(0,0,0,0.1);
+}
+
+tr:nth-child(odd){
+    background-color : rgb(245,245,245);
+}
+
+#bilanT {
+    border-style: solid;
+    border-width : 1px;
+    border-color : rgb(245,245,245);
+    display:inline-block;  
+    text-align:initial;
+}
+
+#bilanDiv{
+    text-align:center;
+}
